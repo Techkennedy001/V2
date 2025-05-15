@@ -11,7 +11,7 @@ const author = process.env.STICKER_AUTHOR || 'fortunatus';
 const packname = process.env.PACKNAME || 'dreaded md2 🤖';
 const dev = process.env.DEV || '254791014324';
 const DevDreaded = dev.split(",");
-const botname = process.env.BOTNAME || 'VENUS';
+const botname = process.env.BOTNAME || 'Hades Md';
 const mode = process.env.MODE || 'private';
 const gcpresence = process.env.GC_PRESENCE || 'false';
 const antionce = process.env.ANTIVIEWONCE || 'true';
@@ -23,7 +23,7 @@ const antitag = process.env.ANTITAG || 'true';
 const antidelete = process.env.ANTIDELETE || 'true';
 const autoview = process.env.AUTOVIEW_STATUS || 'true';
 const autolike = process.env.AUTOLIKE_STATUS || 'true';
-const autoread = process.env.AUTOREAD || 'true';
+const autoread = process.env.AUTOREAD || 'false';
 const autobio = process.env.AUTOBIO || 'false';
 
 module.exports = {
